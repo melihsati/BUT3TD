@@ -1,0 +1,12 @@
+---
+const { Title } = Astro.props;
+const { Content } = Astro.props;    
+import '../styles/global.css';
+---
+
+<div class="card border-2">
+			<div class="card-container">
+				<h2 class="card-title"> { Title } </h2>
+				<p class="card-content">{ Content }</p>
+			</div>
+		</div>
